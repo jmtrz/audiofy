@@ -1,0 +1,156 @@
+body {
+    background-color: rgb(32, 32, 32);
+    font-family: "Roboto",'Segoe UI', sans-serif;
+}
+.audiofy-container {
+    display: flex;
+    height: 90vh;
+}
+
+main {
+    background-color: #171717;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #272727;
+    width: 15%;
+    padding: 2%;
+    border-right: 1px solid #7A8580;
+}
+
+#logo {
+    color: #fff;
+    /* text-align: center; */
+}
+
+.nav-list{
+    color: white;
+    list-style: none;
+    font-size: 19.075px;
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: column;        
+}  
+
+.nav-list  ul {
+    padding: 0;        
+}
+
+.host-container h3 {
+    color: #2E3A59;
+}
+
+.host-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.host-title .fa-solid.fa-plus {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.host-list {
+    display: flex;
+    gap: 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #959D99;
+}
+
+.host-list span:first-child {
+    color: #F3777D;
+}
+
+footer {
+    height: 75.837px;
+    width: 100%;
+    background-color: #272727;
+    border-top: 1px solid #7A8580;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.audio-control {
+    width: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio-control .fa-solid {
+    margin: 0 10px;
+}
+
+.audio-time {
+    width: 50%;
+}
+
+.audio-time {
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+}
+
+.audio-album-cover {
+    display: flex;
+    align-items: center;
+}
+
+.audio-album-cover img {
+    height: 55px;
+}
+
+.audio-album-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.audio-album-title {
+    text-align: center;
+    font-weight: 600;
+}
+
+.audio-album-duration {    
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.audio-total-duration {    
+    width: 60%;
+    height: 5px;
+    background-color: #EE4950;
+}
+
+.audio-current-duration {
+    width: 85%;
+    height: 5px;
+    background-color: #E4E7E5;
+}
+
+.audio-options {
+    width: 25%;
+    height: 100%;    
+    border-left: 1px solid #7A8580;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio-options .fa-solid {
+    margin: auto 20px;
+}
